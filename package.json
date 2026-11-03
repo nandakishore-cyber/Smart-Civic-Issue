@@ -1,0 +1,15 @@
+{
+  "name": "smart-civic-issue-platform",
+  "version": "1.0.0",
+  "description": "Smart Civic Issue Reporting and Responding Platform (MERN Stack)",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "start": "cd server && node server.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
+  },
+  "author": "",
+  "license": "MIT"
+}
